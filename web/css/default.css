@@ -1,0 +1,88 @@
+﻿.rotate-north {
+            bottom: 150px;
+            right: 10em;
+        }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    color: grey;
+    text-align: center;
+}
+
+.selected {
+    background: #0f0;
+}
+
+li {
+    cursor: pointer;
+}
+
+.search {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+}
+
+    .search input {
+        width: 250px;
+        height: 32px;
+        background: #fcfcfc;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+    }
+
+    .search input {
+        text-indent: 32px;
+    }
+
+    .search .fa-search {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
